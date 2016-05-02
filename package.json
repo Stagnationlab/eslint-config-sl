@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-sl",
+  "version": "1.0.0",
+  "description": "SL ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stagnationlab/eslint-config-sl.git"
+  },
+  "author": "Stagnation Lab",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}
