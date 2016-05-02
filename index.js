@@ -12,7 +12,6 @@ module.exports = {
 			order: [
 				'static-methods',
 				'lifecycle',
-				'/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
 				'render',
 				'/^render.+$/',
 				'/^handle.+$/',
