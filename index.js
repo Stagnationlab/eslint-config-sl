@@ -8,6 +8,7 @@ module.exports = {
 		'max-len': [2, 120, 4],
 		'react/jsx-indent': [2, 'tab'],
 		'react/jsx-indent-props': [2, 'tab'],
+		'react/jsx-no-bind': [0],
 		'react/sort-comp': [2, {
 			order: [
 				'static-methods',

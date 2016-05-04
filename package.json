@@ -4,8 +4,8 @@
   "description": "SL ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "npm run --silent lint"
   },
   "keywords": [
     "eslint",
