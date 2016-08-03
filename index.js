@@ -19,6 +19,9 @@ module.exports = {
 				'everything-else',
 			],
 		}],
+
+		// disable deprecated
+		"react/require-extension": 0
 	},
 	globals: {
 		// jsx control statement globals
