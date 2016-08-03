@@ -19,6 +19,7 @@ module.exports = {
 				'everything-else',
 			],
 		}],
+		'eol-last': 'off',
 
 		// disable deprecated
 		"react/require-extension": 0
