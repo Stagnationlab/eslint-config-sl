@@ -8,7 +8,7 @@ module.exports = {
 		'max-len': [2, 120, 4],
 		'react/jsx-indent': [2, 'tab'],
 		'react/jsx-indent-props': [2, 'tab'],
-		'react/jsx-no-bind': [0],
+		'react/jsx-no-bind': 0,
 		'react/sort-comp': [2, {
 			order: [
 				'static-methods',
@@ -20,10 +20,11 @@ module.exports = {
 			],
 		}],
 		'eol-last': 'off',
-		'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+		'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+		'jsx-a11y/label-has-for': 0,
 
 		// disable deprecated
-		"react/require-extension": 0
+		'react/require-extension': 0,
 	},
 	globals: {
 		// jsx control statement globals
