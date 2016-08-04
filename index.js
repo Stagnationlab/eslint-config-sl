@@ -20,6 +20,7 @@ module.exports = {
 			],
 		}],
 		'eol-last': 'off',
+		'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
 
 		// disable deprecated
 		"react/require-extension": 0
