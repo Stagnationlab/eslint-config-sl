@@ -1,6 +1,9 @@
 # Changelog
 
-## 1.6.0
+## 1.7.0 - 2016-08-23
+- Disabled `linebreak-style` rule.
+
+## 1.6.0 - 2016-08-23
 - Added `allowPrecedence: true` to rule `no-mixed-operators`.
 
 ## 1.2.0 - 2016-05-04

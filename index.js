@@ -22,10 +22,11 @@ module.exports = {
 		'eol-last': 'off',
 		'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
 		'jsx-a11y/label-has-for': 0,
+		'no-mixed-operators': [2, { 'allowSamePrecedence': true }],
+		'linebreak-style': [0],
 
 		// disable deprecated
-		'react/require-extension': 0,
-		'no-mixed-operators': [2, { 'allowSamePrecedence': true }]
+		'react/require-extension': 0
 	},
 	globals: {
 		// jsx control statement globals
