@@ -25,6 +25,7 @@ module.exports = {
 
 		// disable deprecated
 		'react/require-extension': 0,
+		'no-mixed-operators': [2, { 'allowSamePrecedence': true }]
 	},
 	globals: {
 		// jsx control statement globals

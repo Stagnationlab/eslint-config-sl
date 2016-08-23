@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.6.0
+- Added `allowPrecedence: true` to rule `no-mixed-operators`.
+
 ## 1.2.0 - 2016-05-04
 - Disabled ruled `react/jsx-no-bind`.
 
