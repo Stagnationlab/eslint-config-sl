@@ -14,6 +14,7 @@ module.exports = {
 		'react/jsx-no-bind': 0,
 		'react/forbid-prop-types': 0,
 		'react/no-danger': 0,
+		'react/require-default-props': 0,
 		'react/sort-comp': [2, {
 			order: [
 				'static-methods',
@@ -28,11 +29,10 @@ module.exports = {
 		'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
 		'jsx-a11y/label-has-for': 0,
 		'jsx-a11y/no-static-element-interactions': 0,
-		'no-mixed-operators': [2, { 'allowSamePrecedence': true }],
+		'import/no-extraneous-dependencies': 0,
+		'import/prefer-default-export': 0,
+		'no-mixed-operators': [2, { allowSamePrecedence: true }],
 		'linebreak-style': [0],
-
-		// disable deprecated
-		'react/require-extension': 0
 	},
 	globals: {
 		// jsx control statement globals
