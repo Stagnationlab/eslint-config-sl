@@ -1,4 +1,9 @@
 # Changelog
+## 4.0.0 - 2017-08-10
+- Added [Yarn](https://yarnpkg.com/en/) support.
+- Removed `eslint` dependency, added it as peerDependency.
+- Updated dependencies.
+- Updated rules.
 
 ## 1.7.0 - 2016-08-23
 - Disabled `linebreak-style` rule.

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sl",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "SL ESLint config",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,17 @@
   },
   "author": "Stagnation Lab",
   "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^3.19.0 || ^4.4.1"
+  },
   "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "babel-eslint": "^7.2.3",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
   }
 }
