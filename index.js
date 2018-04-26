@@ -11,6 +11,7 @@ module.exports = {
 		'jsx-a11y/no-noninteractive-element-interactions': 0,
 		'jsx-a11y/no-noninteractive-tabindex': 0,
 		'jsx-a11y/no-static-element-interactions': 0,
+		'jsx-a11y/click-events-have-key-events': 0,
 		'linebreak-style': 0,
 		'max-len': [2, 120, 4],
 		'no-mixed-operators': 2,
@@ -54,6 +55,8 @@ module.exports = {
 		}],
 		'quote-props': [2, 'consistent-as-needed'],
 		'space-before-function-paren': [2, 'never'],
+		'prefer-destructuring': 0,
+		'prefer-promise-reject-errors': 0,
 	},
 	globals: {
 		// jsx control statement globals
