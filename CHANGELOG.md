@@ -1,4 +1,7 @@
 # Changelog
+## 5.0.0 - 2018-04-26
+- Updated dependencies.
+
 ## 4.0.0 - 2017-08-10
 - Added [Yarn](https://yarnpkg.com/en/) support.
 - Removed `eslint` dependency, added it as peerDependency.
