@@ -18,16 +18,16 @@
   "author": "Stagnation Lab",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^3.19.0 || ^4.4.1"
+    "eslint": "^4.19.1 || ^5.3.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "babel-eslint": "^10.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.6.0"
   }
 }

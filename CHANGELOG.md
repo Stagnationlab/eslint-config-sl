@@ -1,4 +1,7 @@
 # Changelog
+## 6.0.0 - 2018-09-27
+- Updated dependencies.
+
 ## 5.0.1 - 2018-04-26
 - Disabled following rules for better compatibility with v4.0.0:
   - jsx-a11y/click-events-have-key-events

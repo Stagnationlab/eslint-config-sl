@@ -20,18 +20,18 @@ module.exports = {
 			2,
 			{
 				selector: 'ForInStatement',
-				message: 'for..in loops iterate over the entire prototype chain, which is virtually never ' +
-					'what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+				message: 'for..in loops iterate over the entire prototype chain, which is virtually never '
+					+ 'what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
 			},
 			{
 				selector: 'LabeledStatement',
-				message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and ' +
-					'understand.',
+				message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and '
+					+ 'understand.',
 			},
 			{
 				selector: 'WithStatement',
-				message: '`with` is disallowed in strict mode because it makes code impossible to predict and ' +
-					'optimize.',
+				message: '`with` is disallowed in strict mode because it makes code impossible to predict and '
+					+ 'optimize.',
 			},
 		],
 		'no-tabs': 0,
@@ -53,10 +53,22 @@ module.exports = {
 				'everything-else',
 			],
 		}],
+		'react/jsx-wrap-multilines': [2, {
+			declaration: 'parens',
+			assignment: 'parens',
+			return: 'parens',
+			arrow: 'parens',
+			condition: 'ignore',
+			logical: 'ignore',
+			prop: 'ignore',
+		}],
+		'react/jsx-one-expression-per-line': 0,
+		'react/destructuring-assignment': 0,
 		'quote-props': [2, 'consistent-as-needed'],
 		'space-before-function-paren': [2, 'never'],
 		'prefer-destructuring': 0,
 		'prefer-promise-reject-errors': 0,
+		'lines-between-class-members': [2, 'always', { exceptAfterSingleLine: true }],
 	},
 	globals: {
 		// jsx control statement globals
